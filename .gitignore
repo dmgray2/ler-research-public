@@ -1,0 +1,80 @@
+# =========================
+# Generated / runtime outputs
+# =========================
+results/
+outputs/
+runs/
+reports/
+checkpoints/
+
+# Common output file patterns (LER-style)
+scores.*
+agg.*
+stats.*
+*.summary.json
+*.summary.csv
+*.items.csv
+*.jsonl.out
+*.log
+
+# Slurm / HPC logs
+slurm-*.out
+slurm-*.err
+*.out
+*.err
+
+# =========================
+# Data: keep sources + small samples, ignore big generated files
+# =========================
+data/*.generated*.jsonl
+data/*.generated*.csv
+data/*.generated*.tsv
+
+# Allow intentional small samples (name them *sample*.*)
+!data/*sample*.jsonl
+!data/*sample*.csv
+!data/*sample*.tsv
+
+# =========================
+# Python / notebooks
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.ipynb~
+*.py~
+
+# =========================
+# Local caches / HF caches
+# =========================
+hf_home/
+.hf_cache/
+.huggingface/
+.cache/
+**/.cache/
+**/wandb/
+**/mlruns/
+
+# =========================
+# Secrets / local-only config
+# =========================
+.hf_token
+*.pem
+*.key
+.env
+.env.*
+secrets/
+**/secrets/
+
+# Machine-specific env vars (commit template, not the real file)
+scripts/ler_env_vars.sh
+
+# =========================
+# OS / editor noise
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
