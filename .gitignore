@@ -78,3 +78,9 @@ scripts/ler_env_vars.sh
 Thumbs.db
 .vscode/
 .idea/
+
+# =========================
+# Allow curated published artifacts
+# =========================
+!results_published/
+!results_published/**

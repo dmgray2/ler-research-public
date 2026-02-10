@@ -1,0 +1,2 @@
+Found 6 baseline nf2000 crit CSVs matching: results/scores.*ce2fam_v0.7_nf2000.crit.deltaai.csv
+N_BOOT=1000, N_PERM=500, SEED=13

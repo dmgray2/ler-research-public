@@ -1,0 +1,12 @@
+{
+  "n_items": 6002,
+  "item_accuracy": 0.589303565478174,
+  "item_mean_delta": 0.44915239320759454,
+  "n_families": 2002,
+  "family_all_correct_accuracy_all_families": 0.2707292707292707,
+  "family_all_correct_accuracy_multi_item_families": 0.27,
+  "item_accuracy_crit": 0.586804398533822,
+  "item_mean_delta_crit": 0.4669990469637969,
+  "family_all_correct_accuracy_all_families_crit": 0.2162837162837163,
+  "family_all_correct_accuracy_multi_item_families_crit": 0.2155
+}
